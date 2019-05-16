@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:id="@+id/image_message_profile"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:background="@drawable/batman"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:id="@+id/message_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@+id/image_message_profile"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="John Doe"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/message_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/message_user"
+        app:layout_constraintLeft_toRightOf="@+id/image_message_profile"
+        android:background="@drawable/rounded_rectangle_orange"
+        android:maxWidth="240dp"
+        android:padding="8dp"
+        android:text="hi man, how are you?"
+        android:textColor="#ffffff"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/message_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/message_text"
+        app:layout_constraintLeft_toRightOf="@+id/message_text"
+        android:text="11:40"
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="3dp" />
+
+</android.support.constraint.ConstraintLayout>

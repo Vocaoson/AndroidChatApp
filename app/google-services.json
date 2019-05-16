@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "173856240719",
+    "firebase_url": "https://demomobile-e8a1d.firebaseio.com",
+    "project_id": "demomobile-e8a1d",
+    "storage_bucket": "demomobile-e8a1d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:173856240719:android:dd6736d7ec400395",
+        "android_client_info": {
+          "package_name": "thedarkknighttech.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "173856240719-agq9ggl6j6nbmm7u2n3o54t5qkkbcr7e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvsGVJQtMoCkl-Ox1l4u7_o_wtL6nt3pI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "173856240719-agq9ggl6j6nbmm7u2n3o54t5qkkbcr7e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
